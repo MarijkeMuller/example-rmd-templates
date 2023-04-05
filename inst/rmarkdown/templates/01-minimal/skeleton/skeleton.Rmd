@@ -9,6 +9,10 @@ output:
     theme: flatly
 ---
 
+### Template aanpassen
+### Github.com -> naar deze repo gaan: example-rmd-templates 
+### inst/rmarkdown/templates/01-minimal/skeleton/skeleton.Rmd 
+### Pennetje -> template file aanpassen -> commit 
 
 ### Hier invullen welke map 
 ```{r}
