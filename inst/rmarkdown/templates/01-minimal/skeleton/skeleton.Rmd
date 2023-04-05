@@ -12,7 +12,13 @@ output:
 ### Template aanpassen
 ### Github.com -> naar deze repo gaan: example-rmd-templates 
 ### inst/rmarkdown/templates/01-minimal/skeleton/skeleton.Rmd 
-### Pennetje -> template file aanpassen -> commit 
+### Pennetje -> template file aanpassen -> commit changes
+
+### In Rstudio -> in de console dit plakken en dan enter:
+### # install.packages("devtools")
+### devtools::install_github("mikey-harper/example-rmd-templates")
+
+### Dan openen nieuwe Markdown file - template 01 (let op locatie kiezen)
 
 ### Hier invullen welke map 
 ```{r}
