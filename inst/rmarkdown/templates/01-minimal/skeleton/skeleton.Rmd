@@ -7,17 +7,19 @@ output:
     toc: true
     fig_caption: true
     theme: flatly
----
+-------
 
-### Template aanpassen
-### Github.com -> naar deze repo gaan: example-rmd-templates 
-### inst/rmarkdown/templates/01-minimal/skeleton/skeleton.Rmd 
-### Pennetje -> template file aanpassen -> commit changes
 
-### In Rstudio -> in de console dit plakken en dan enter:
-### devtools::install_github("marijkemuller/example-rmd-templates") ###
 
-### Dan openen nieuwe Markdown file - template 01 (let op locatie kiezen)
+# Template aanpassen
+Github.com -> naar deze repo gaan: example-rmd-templates 
+inst/rmarkdown/templates/01-minimal/skeleton/skeleton.Rmd 
+Pennetje -> template file aanpassen -> commit changes
+
+In Rstudio -> in de console dit plakken en dan enter:
+devtools::install_github("marijkemuller/example-rmd-templates") ###
+
+Dan openen nieuwe Markdown file - template 01 (let op locatie kiezen)
 
 ### Hier invullen welke map 
 ```{r}
@@ -27,7 +29,7 @@ output:
 ### Hier het juist CSV invullen
 ```{r}
  <- read.csv(file="Data.csv",head=TRUE,sep=";")
-````
+```
 
 ## Hoofdvraag 
 ### Deelvraag
