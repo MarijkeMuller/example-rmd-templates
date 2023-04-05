@@ -9,6 +9,17 @@ output:
     theme: flatly
 ---
 
+
+### Hier invullen welke map 
+```{r}
+"/Users/merelkarlijn/Documents/Rstudio Map/Dag 3"
+``` 
+
+### Hier het juist CSV invullen
+```{r}
+ <- read.csv(file="Data.csv",head=TRUE,sep=";")
+````
+
 ## Hoofdvraag 
 ### Deelvraag
 
